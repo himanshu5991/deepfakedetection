@@ -13,7 +13,7 @@ if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 # Load your model
-model_path = '/Users/himanshusharma/Desktop/Deepfake_detection/final_model.h5'
+model_path = '/Users/himanshusharma/Downloads/final_model.h5'
 model = tf.keras.models.load_model(model_path)
 
 def preprocess_frame(frame):
